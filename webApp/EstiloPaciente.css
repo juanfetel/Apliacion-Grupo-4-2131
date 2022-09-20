@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(217, 217, 217);
+}
+#TituloVistaPaciente{
+    background-color: rgb(19, 43, 105);
+    color:white;   margin: auto;
+    border: 2px solid rgb(217, 217, 217);
+    padding: 3px 10px ; 
+    border-radius: 5px;
+    text-shadow:  #fff;
+ 
+}
+
+.menu li opcion1{
+    background-color: rgb(245, 245, 245);
+    
+    color:rgb(8, 8, 8);
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 150px;
+    border-radius: 15px;
+    display: block;  
+}
+
+.menu li opcion2{
+    background-color: rgb(157, 27, 21);
+    white-space: normal;
+    color:rgb(235, 235, 235);
+    padding: 15px;
+    padding-left: 350px;
+    padding-right: 350px;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+.menu li{
+    display:inline-block
+}
+
+.menuVista{
+    list-style:none  ;
+    margin: auto;
+    width: 80%;
+    padding: 0px;
+    
+
+}
+
+.menuVista li a{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+
+}
+
+.menuVista li{
+    display:inline-block
+}
+
+.menuVista li a:hover{
+    background-color: rgb(86, 131, 255);
+}

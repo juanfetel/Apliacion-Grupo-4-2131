@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloPaciente.css">
+
+</head>
+<body>
+
+    <div id="TituloVistaPaciente">
+       
+        <ul class="menu">
+            
+            <li><img  src="Usuario.png" 
+                      width="55px"></li>
+
+             <li><opcion2 >Center Medical</opcion2></li>
+            <li><opcion1>Bienvenido Paciente : </opcion1></li>
+       
+        </ul>
+
+        <ul class="menuVista">
+            <li><a href="VistaPerfilPaciente.html"style="background-color: rgb(240, 183, 43)" >Perfil de Usuario</a></li>
+            <li><a href="VistaPerfilPaciente.html" >Citas Médicas</a></li>
+            <li><a href="VistaInicio.html" >Cerrar Seción</a></li>
+        </ul>          
+    </div>
+
+    <p>
+        <div id="Cuerpo">
+            <form>
+                <p>
+                    Nombre
+                    <input 
+                    type="text" 
+                    id="Nombre" 
+                    name="Nombre" 
+                    required>
+                </p>
+    
+                <p>
+                    Apellido
+                    <input 
+                    type="text" 
+                    id="ApellidoUsuario" 
+                    name="ApellidoUsuario" 
+                    required>
+                </p>
+
+                <p>
+                    Fecha de Nacimeinto
+                    <input 
+                    type="date" 
+                    id="Edadusuario" 
+                    name="EdadUsuario" 
+                    required>
+                </p>
+
+                <p>
+                    Sexo
+                    <select 
+                    id="SexoUsuario" 
+                    name="SexoUsuario" 
+                    required>
+                    <option value="Seleciona">Selecciona</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    </select>
+                </p>
+
+                <p>
+                    Tipo de identificación
+                    <select 
+                    id="TipoIdentificacinUsuario" 
+                    name="TipoIdentificacinUsuario" 
+                    required>
+                    <option value="Seleciona"> </option>
+                    <option value="CC">C.C</option>
+                    <option value="TI">T.I</option>
+                    <option value="TE">T.E</option>
+                </select>
+                </p>
+
+                <p>
+                    Numero de identificacion
+                    <input 
+                    type="text" 
+                    id="NumeroIdentidadUsuario" 
+                    name="NumeroIdentidadUsuario" 
+                    required>
+                </p>
+
+                <p>
+                    Correo
+                    <input 
+                    type="email" 
+                    id="CorreoUsuario" 
+                    name="CorreoUsuario" 
+                    required>
+                </p>
+
+                <p>
+                    Telefono
+                    <input 
+                    type="text" 
+                    id="TelefonoUsuario" 
+                    name="TelefonoUsuario" 
+                    required>
+                </p>
+
+    
+                <center>
+                    <button type="submit" value="EditarUsuario" id="EditarUsuario">Editar usuario</button>                    
+                </center>
+
+                
+    
+                
+    
+    
+            </form>
+    
+        </p>
+
+    
+</body>
+</html>
